@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.common-border{
+    @apply border-l-8 border-l-[rgb(240,152,161)] border-t-8 border-t-[rgb(240,152,161)]
+}
+
+.light-border{
+    @apply border-l-4 border-l-[rgb(240,152,161)] border-t-4 border-t-[rgb(240,152,161)]
+}
