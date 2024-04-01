@@ -3,7 +3,11 @@ import CardImage from "./CardImage";
 
 const Card = () => {
   return (
-    <main className="card light-border card-content card-shadow flex flex-col lg:flex-row bg-[rgb(227,115,123,0.5)] backdrop-filter backdrop-blur-lg rounded-3xl overflow-hidden h-96 shadow-lg m-4 lg:m-6 ">
+    <main
+      className={
+        "card light-border card-shadow flex flex-col lg:flex-row bg-[rgb(227,115,123,0.5)] backdrop-filter backdrop-blur-lg rounded-3xl overflow-hidden h-96 shadow-lg m-4 lg:m-6"
+      }
+    >
       <div className="flex-1 w-fit gap-2 p-4 lg:p-4">
         <CardImage />
         <div className="flex">
