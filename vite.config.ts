@@ -6,18 +6,10 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/main.tsx",
-      name: "varun-ui-library",
+      formats: ["es", "cjs"],
       fileName: (format) => `index.${format}.js`,
     },
-    rollupOptions: {
-      // Make sure to externalize dependencies in your library build
-      // Externalize dependencies that shouldn't be bundled into your library
-      external: [],
-      output: {
-        // Provide global variables to use in the UMD build
-        globals: {},
-      },
-    },
+    outDir: "dist",
   },
   plugins: [react()],
 });
