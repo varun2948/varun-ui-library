@@ -37,7 +37,7 @@ ReactDOM.render(
 
 ## Examples
 
-![Example Image](./src/assets/carousel1.jpg)
+![Example Image](./dist/carousel1.jpg)
 
 
 ## Contributing
